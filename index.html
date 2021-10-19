@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/l (1).svg" type="image/x-icon" />
+    <title>Leland Hayes</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <!-- <nav
+      class="navbar is-transparent has-centered-logo"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand is-hidden-desktop">
+        <a
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-brand is-hidden-touch">
+          <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a class="button" style="color: black" href="">About Me</a>
+            <div class="navbar-item">
+              <a class="button" style="color: black" href="">Resume</a>
+              <div class="navbar-item">
+                <a class="button" style="color: black" href="">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav> -->
+
+    <div class="space flex">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div> 
+
+    <!-- Light and Dark Button -->
+    <!-- <script>
+      var app = document.getElementsByTagName("BODY")[0];
+        if (localStorage.lightMode == "dark") {
+          app.setAttribute("light-mode", "dark");
+        }
+    </script>
+    <button class="light-mode-button" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
+      <span></span>
+      <span></span>
+    </button> -->
+
+    <section class="title-container">
+      <div class="place-holder">
+        <div class="is-flex is-flex-direction-column intro intro-sec">
+          <div id="title" class="hello">Hello.</div> <br>
+          <div id="title-1" class="hello">I am</div> <br>
+          <div id="title-2" class="hello">Leland</div>
+          
+
+          <div class="is-flex is-justify-content-center occupancy">
+            <div id="typing-demo" style="color: white">Full Stack Developer</div>
+          </div>
+
+          <a id="section05" class="is-flex demo" href="#aboutme-container">
+            <span id="scroll-span"></span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Content Starts -->
+    <!-- About Section -->
+    <section id="aboutme-container">
+      <div class="about-section">
+        <h2 id="aboutme" style="color: #fdd808">About Me</h2>
+
+        <p id="aboutme-para" style="color: white">
+          Detailed oriented individual with experience in Full-Stack
+          Development. I like to define myself not on the work I have done but
+          on the work I want to do. I love to learn new things, and continue to
+          challenge myself on a day to day basis. Easily inspired and allow my
+          fascinations to rome free, without ever becoming satisfied.
+          Influencing positive outcomes whether that be in a work setting or
+          personal life. Learn more about me with my resume.
+        </p>
+
+        <p id="resume"><a href="./resume/Leland_Hayes_Resume (2).PDF" target="_blank" style="color: #08fdd8;">Resume.pdf</a></p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills has-text-centered">
+      <div class="skill-headers">
+        <div class="column is centered">
+          <h1 class="skill-name" style="color: #fdd808">Front-End</h1>
+          
+          <p class="list-title has-text-weight-normal" style="color: #02eac7">
+            Languages:
+          </p>
+
+          <p class="skill-details">HTML, CSS, & JavaScript</p>
+          <br />
+          <p class="list-title has-text-weight-normal">
+            Tools:
+          </p>
+          <ul class="skill-details">
+            <li class="skills-lists">React</li>
+            <li class="skills-lists">Bulma</li>
+            <li class="skills-lists">Bootstrap</li>
+            <li class="skills-lists">Tailwind</li>
+            <li class="skills-lists">Foundation</li>
+          </ul>
+        </div>
+
+        <div class="column is centered">
+          <h1 class="skill-name" style="color: #fdd808">Back-End</h1>
+          
+          <p class="list-title has-text-weight-normal" style="color: #08fdd8">
+            Languages:
+          </p>
+
+          <p class="skill-details">JavaScript & Python</p>
+          <br />
+          <p class="list-title has-text-weight-normal">
+            Tools:
+          </p>
+          <ul class="skill-details">
+            <li class="skills-lists">Node.js</li>
+            <li class="skills-lists">Chart.js</li>
+            <li class="skills-lists">Plotly</li>
+            <li class="skills-lists">Pandas</li>
+            <li class="skills-lists">Express.js</li>
+          </ul>
+        </div>
+
+        <div class="column is centered">
+          <h1 class="skill-name" style="color: #fdd808">Data</h1>
+          
+          <p class="list-title has-text-weight-normal" style="color: #08fdd8">
+            Languages:
+          </p>
+
+          <p class="skill-details">SQL & NoSQL</p>
+          <br />
+          <p class="list-title has-text-weight-normal">
+            Tools:
+          </p>
+          <ul class="skill-details">
+            <li class="skills-lists">Power Bi</li>
+            <li class="skills-lists">Tableua</li>
+            <li class="skills-lists">Excel</li>
+            <li class="skills-lists">Google Sheets</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <div class="wrapper">
+      <h1 class="work-title">My Work</h1>
+        <div class="cols">
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+           <a href="https://chasenicks.github.io/tattoo_shop/" target="_blank"> <div class="container"> 
+              <div class="front" style="background-image: url(./img/tattoo-shop.png);">
+                <div class="inner">
+                  <p >Tattoo Shop</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>A freelance project based on a Tattoo shop. A well sought out but simple informational
+                    application to portray the aspects of the shop 
+                    as well as the body art.</p>
+                </div>
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <a href="https://copernichris.github.io/CryptoWatch/" target="_blank"> <div class="container">
+              <div class="front" style="background-image: url(./img/CryptoWatch.png);">
+                <div class="inner">
+                  <p>CryptoWatch</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>A crypto application that gives users useful insight of whats going on in the crypto market,
+                    able to see a 3 month view of price action and volume,
+                     also current news.</p>
+                </div>
+              </div>
+            </div> </a>
+          </div>
+
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <a href="https://ilelandhayes.github.io/Weather-Dashboard/" target="_blank"> <div class="container">
+              <div class="front" style="background-image: url(./img/Weather-Dashboard.png);">
+                <div class="inner">
+                  <p>Weather Dashboard</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>This is a Weather Dashboard application that can be used by the user to search for forecast 
+                    of multiple cites. Very useful for planning a trip correspondingly.</p>
+                </div>
+              </div>
+            </div> </a>
+          </div>
+
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <a href="https://ilelandhayes.github.io/Javascript-Quiz/" target="_blank"> <div class="container">
+              <div class="front" style="background-image: url(./img/Coding-Quiz.png);">
+                <div class="inner">
+                  <p>JavaScript Quiz</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>A JavaScript Quiz that test your common knowledge on Javascript.</p>
+                </div>
+              </div>
+            </div> </a>
+          </div>
+
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <a href="https://ilelandhayes.github.io/Daily-Planner/" target="_blank"> <div class="container"> 
+              <div class="front" style="background-image: url(./img/Work-Day-Scheduler.png);">
+                <div class="inner">
+                  <p>Work Day Schedular</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>This is a working Daily Planner that can be used by employee's that
+                     have very busy schedules, to keep track of their day.</p>
+                </div>
+              </div>
+            </div> </a>
+          </div>
+
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <a href="https://ilelandhayes.github.io/Password-Generator/" target="_blank"> <div class="container">
+              <div class="front" style="background-image: url(./img/Password-Generator.png);">
+                <div class="inner">
+                  <p>Password Generator</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>A password generator for company employees that is soly based upon
+                     criteria they have chosen for their specific password.</p>
+                </div>
+              </div>
+            </div> </a>
+          </div>
+
+          <!-- <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div class="front" >
+                <div class="inner">
+                  <p>Acirassi</p>
+                  <span>Lorem ipsum</span>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div class="front" >
+                <div class="inner">
+                  <p>Sohanidd</p>
+                  <span>Lorem ipsum</span>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+     </div>
+
+     <section id="contact-container">
+      <div class="contact-section">
+        <h2 id="contact" style="color: #fdd808">Interested in Collaborating?</h2>
+
+        <p id="contact-para" style="color: white; font-size: 1.6em;">
+          I'm always open to working with new partnerships! <a href="mailto:lelandkhayes13@gmail.com" target="_blank" style="color: #08fdd8; font-weight: 350;">Email Me</a>
+        </p>
+      </div>
+    </section>
+
+    <footer class="footerr">
+      <div class="has-text-centered footer-cont">   
+        <a href="https://twitter.com/LelandHayes7" target="_blank"><img id="twitter" src="./img/twitter.svg"></a>
+        <a href="https://www.facebook.com/leland.hayes.376/" target="_blank"><img id="facebook" src="./img/facebook (1).svg"></a>
+        <a href="https://www.linkedin.com/in/lelandhayes/" target="_blank"><img id="linkedin" src="./img/linkedin.svg"></a>
+        <a href="https://github.com/ilelandhayes" target="_blank"><img id="github" src="./img/github.svg"></a>
+        <a href="mailto:lelandkhayes13@gmail.com" target="_blank"><img id="email" src="./img/gmail (1).svg"></a>
+
+        <p>
+        © 2021 | Designed & Created by Leland Hayes
+        </p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
