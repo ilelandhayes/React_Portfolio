@@ -6,31 +6,32 @@ import Work from './pages/Work';
 import NavBar from './NavBar';
 
 const PortfolioContainer = () => {
-    const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("Home");
   
-    const handlePageChange = page => {
-      setCurrentPage(page);
-    };
+  const handlePageChange = page => {
+    setCurrentPage(page);
+  };
 
-    const renderPage = () => {
-        if (currentPage === "Home") {
-          return <Home handlePageChange={handlePageChange} />;
-        }
-        if (currentPage === "AboutMe") {
-          return <AboutMe handlePageChange={handlePageChange} />;
-        }
-        if (currentPage === "Work") {
-          return <Work />;
-        }
-        return <Contact />;
-      };
+  const renderPage = () => {
+      if (currentPage === "Home") {
+        return <Home handlePageChange={handlePageChange} />;
+      }
+      if (currentPage === "AboutMe") {
+        return <AboutMe handlePageChange={handlePageChange} />;
+      }
+      if (currentPage === "Work") {
+        return <Work />;
+      }
+      return <Contact />;
+  };
     
-      return (
-        <>
-          <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+    return (
+      <>
+        <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+
           {renderPage()}
-        </>
-      );
+      </>
+    );
 };
 
 export default PortfolioContainer;
