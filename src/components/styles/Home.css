@@ -1,0 +1,23 @@
+.intro {
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(245, 229, 229);
+}
+
+.summary {
+  text-align: center;
+  color: rgb(245, 229, 229);
+  border-bottom: rgb(69, 66, 66) solid 3px;
+  padding-bottom: 3rem;
+}
+
+.connect {
+  padding: 2rem;
+}
+
+.linkedin {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}

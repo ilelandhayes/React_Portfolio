@@ -5,7 +5,7 @@ import { Navbar, Nav } from "react-bootstrap";
 const NavBar = ({ currentPage, handlePageChange }) => {
   return (
     <Router>
-      <Navbar bg="dark" className="px-3" variant="dark" expand="lg" sticky="top">
+      <Navbar bg="black" className="px-3" variant="dark" expand="lg" sticky="top">
         <Navbar.Brand>Leland Hayes</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
