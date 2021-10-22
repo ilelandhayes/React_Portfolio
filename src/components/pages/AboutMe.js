@@ -2,7 +2,7 @@
 
 const AboutMe = ({ handlePageChange }) => {
     return (
-        <h1>About Me Page</h1>
+        <h1>Hello</h1>
     );
 };
 

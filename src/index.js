@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import 'bulma/css/bulma.css'
+import 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
 
 

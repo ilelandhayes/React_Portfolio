@@ -1,65 +1,70 @@
 import React from "react";
-// import { BrowserRouter as Router } from "react-router-dom";
-// import Navbar from "react-bulma-components/lib/components/navbar";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
 
 const NavBar = ({ currentPage, handlePageChange }) => {
   return (
-    <ul>
-       <li>
-        <a
-          href="#home"
-          onClick={() => handlePageChange("Home")}
-          className={currentPage === "Home" ? "nav-link active" : "nav-link"}
-        >
-          Home
-        </a>
-      </li>
-      <li>
-        <a
-          href="#work"
-          onClick={() => handlePageChange("Work")}
-          className={currentPage === "Work" ? "nav-link active" : "nav-link"}
-        >
-          Work
-        </a>
-      </li>
-      <li>
-        <a
-          href="#aboutme"
-          onClick={() => handlePageChange("AboutMe")}
-          className={currentPage === "AboutMe" ? "nav-link active" : "nav-link"}
-        >
-          About Me
-        </a>
-      </li>
-      <li>
-        <a
-          href="#contact"
-          onClick={() => handlePageChange("Contact")}
-          className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
-        >
-          Contact
-        </a>
-      </li>
-      <li>
-        <a
-          className="active"
-          href="https://github.com/ilelandhayes"
-          target="_blank"
-        >
-          Github
-        </a>
-      </li>
-      <li>
-        <a
-          className="active"
-          href=""
-          download
-        >
-          Resume
-        </a>
-      </li>
-    </ul>
+    <Router>
+      <Navbar bg="dark" className="px-3" variant="dark" expand="lg" sticky="top">
+        <Navbar.Brand>Leland Hayes</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse
+          id="basic-navbar-nav"
+          className="float-to-right"
+        ></Navbar.Collapse>
+        <Nav bg="dark" className="justify-content-end" activeKey="/home">
+          <Nav.Item>
+            <Nav.Link
+              className={
+                currentPage === "Home" ? "nav-link active" : "nav-link"
+              }
+              onClick={() => handlePageChange("Home")}
+            >
+              Home
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link
+              className={
+                currentPage === "AboutMe" ? "active active-page-link" : "active"
+              }
+              onClick={() => handlePageChange("AboutMe")}
+            >
+              About Me
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link
+              className={
+                currentPage === "Work" ? "active active-page-link" : "active"
+              }
+              onClick={() => handlePageChange("Work")}
+            >
+              Work
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link
+              className={
+                currentPage === "Contact" ? "active active-page-link" : "active"
+              }
+              onClick={() => handlePageChange("Contact")}
+            >
+              Contact Me
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link
+              className="active"
+              href="assets/resume/Leland_Hayes_Resume (2).PDF"
+              download
+            >
+              Resume
+            </Nav.Link>
+          </Nav.Item>
+        </Nav>
+      </Navbar>
+    </Router>
   );
 };
 

@@ -1,11 +1,11 @@
-body {
+/* body {
   background-color: black;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Slab", serif;
-}
+} */
 
 /* Partical Backgrounds */
-@keyframes particles {
+/* @keyframes particles {
   0% {
     transform: translateY(0px);
   }
@@ -490,10 +490,10 @@ body {
     165px 2235px white, 2135px 2259px white, 359px 1520px white;
   width: 2px;
   height: 2px;
-}
+} */
 
 /* Titles */
-.place-holder {
+/* .place-holder {
   max-width: 67rem;
   margin: auto;
 }
@@ -501,33 +501,33 @@ body {
 .title-container {
   margin-top: 3rem;
   height: fit-content;
-}
+} */
 
-@media screen and (max-width: 610px) {
+/* @media screen and (max-width: 610px) {
   .title-container {
-    margin-top: 0.8rem;
-    /* line-height: 1.5rem; */
-  }
-}
+    margin-top: 0.8rem; */
+/* line-height: 1.5rem; */
+/* }
+} */
 
-#title {
+/* #title {
   font-size: 12em;
   font-weight: 680;
   line-height: 9.3rem;
   display: inline-block;
   opacity: 1;
-  color: white;
-  /* margin-bottom: 1vw; */
-}
+  color: white; */
+/* margin-bottom: 1vw; */
+/* } */
 
-#title-1 {
+/* #title-1 {
   font-size: 12em;
   font-weight: 680;
   line-height: 9.3rem;
   display: inline-block;
-  opacity: 1;
-  /* margin-bottom: 1vw; */
-  color: #fdd808;
+  opacity: 1; */
+/* margin-bottom: 1vw; */
+/* color: #fdd808;
 }
 
 #title-2 {
@@ -544,10 +544,10 @@ body {
     font-size: 7.1em !important;
     height: 120px;
   }
-}
+} */
 
 /* Description Title */
-.occupancy {
+/* .occupancy {
   max-width: 67rem;
   margin-top: 2.9rem;
 }
@@ -571,10 +571,10 @@ body {
   from {
     width: 0;
   }
-}
+} */
 
 /* Scroll Arrow */
-#section05 {
+/* #section05 {
   padding-top: 20px;
 }
 
@@ -617,10 +617,10 @@ body {
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
-}
+} */
 
 /* About Me */
-#aboutme-container {
+/* #aboutme-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -658,10 +658,10 @@ body {
   line-height: 1.8;
   font-size: 3em;
   margin-bottom: 4rem;
-}
+} */
 
 /* Skills */
-#skills {
+/* #skills {
   height: fit-content;
   margin-top: 8rem;
 }
@@ -695,10 +695,10 @@ body {
 .list-title {
   font-size: 1.9em;
   color: white;
-}
+} */
 
 /* Work */
-.work-title {
+/* .work-title {
   font-size: 3rem !important;
   font-weight: 450 !important;
   color: #fdd808;
@@ -732,9 +732,9 @@ body {
   margin: 1rem;
   cursor: pointer;
   /* box-shadow: 0px 0px 10px -2px #08fdd8; */
-}
+/* } */
 
-.container {
+/* .container {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   -webkit-perspective: 1000px;
@@ -886,10 +886,10 @@ body {
     width: 100%;
     margin: 0 0 2rem 0;
   }
-}
+} */
 
 /* Contact Section */
-#contact-container {
+/* #contact-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -977,7 +977,7 @@ body {
   width: 2rem;
   margin-left: 1.2rem;
   margin-bottom: 1rem;
-}
+} */
 
 /* Light and Dark Mode */
 /* .light-mode-button {
