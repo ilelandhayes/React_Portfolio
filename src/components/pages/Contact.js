@@ -1,6 +1,9 @@
 import React from 'react';
 import Form from "react-bootstrap/Form";
 import '../styles/Contact.css';
+import github from '../../assets/icons/github.svg';
+import twitter from '../../assets/icons/linkedin.svg';
+import linkedin from '../../assets/icons/twitter.svg';
 
 
 const Contact = ({ handlePageChange }) => {
@@ -59,6 +62,41 @@ const Contact = ({ handlePageChange }) => {
               </div>
             </Form>
           </div>
+          <div className="connect justify-content-md-center my-5 divEl">
+          <a
+            href="https://www.linkedin.com/in/lelandhayes/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="linkedin"
+              src={linkedin}
+              alt="LinkedIn"
+            />
+          </a>
+          <a
+            href="https://github.com/ilelandhayes"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="github"
+              src={github}
+              alt="Github"
+            />
+          </a>
+          <a
+            href="https://twitter.com/LelandHayes7"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="twitter"
+              src={twitter}
+              alt="Twitter"
+            />
+          </a>
+        </div>
         </div>
         </main>
     );

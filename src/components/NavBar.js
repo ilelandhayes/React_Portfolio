@@ -1,19 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
+import "./styles/NavBar.css";
 
 const NavBar = ({ currentPage, handlePageChange }) => {
   return (
     <Router>
-      <Navbar bg="black" className="px-3" variant="dark" expand="lg" sticky="top">
-        <Navbar.Brand>Leland Hayes</Navbar.Brand>
+      <Container className="justify-content-center">
+      <Navbar className="justify-content-center px-3" variant="dark" expand="lg" sticky="top">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
-          id="basic-navbar-nav"
-          className="float-to-right"
+          // id="basic-navbar-nav"
+          // // className="float-to-right"
         ></Navbar.Collapse>
-        <Nav bg="dark" className="justify-content-end" activeKey="/home">
-          <Nav.Item>
+        <Nav className="justify-content-center" activeKey="/home">
+          <Nav.Item className="justify-content-center">
             <Nav.Link
               className={
                 currentPage === "Home" ? "nav-link active" : "nav-link"
@@ -64,6 +65,7 @@ const NavBar = ({ currentPage, handlePageChange }) => {
           </Nav.Item>
         </Nav>
       </Navbar>
+      </Container>
     </Router>
   );
 };

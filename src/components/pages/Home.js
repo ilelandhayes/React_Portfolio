@@ -1,5 +1,8 @@
 import React from 'react';
 import "../styles/Home.css";
+import github from '../../assets/icons/github.svg';
+import twitter from '../../assets/icons/linkedin.svg';
+import linkedin from '../../assets/icons/twitter.svg';
 
 const Home = ({ handlePageChange }) => {
   return (
@@ -11,7 +14,7 @@ const Home = ({ handlePageChange }) => {
           front and back end development, while intergrateing new technologies.
           Love creating very clean and simplistic website designs.
         </h2>
-        <div connect my-5 divEl>
+        <div className="connect justify-content-md-center my-5 divEl">
           <a
             href="https://www.linkedin.com/in/lelandhayes/"
             target="_blank"
@@ -19,7 +22,7 @@ const Home = ({ handlePageChange }) => {
           >
             <img
               className="linkedin"
-              src="./assets/icons/linkedin.svg"
+              src={linkedin}
               alt="LinkedIn"
             />
           </a>
@@ -30,7 +33,7 @@ const Home = ({ handlePageChange }) => {
           >
             <img
               className="github"
-              src="./assets/icons/github (1).png"
+              src={github}
               alt="Github"
             />
           </a>
@@ -41,7 +44,7 @@ const Home = ({ handlePageChange }) => {
           >
             <img
               className="twitter"
-              src="./assets/icons/twitter.svg"
+              src={twitter}
               alt="Twitter"
             />
           </a>

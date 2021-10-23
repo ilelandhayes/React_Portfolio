@@ -1,6 +1,6 @@
 .intro {
   text-align: center;
-  font-size: 4rem;
+  font-size: 5rem;
   color: rgb(245, 229, 229);
 }
 
@@ -12,12 +12,27 @@
 }
 
 .connect {
-  padding: 2rem;
+  text-align: center;
+  padding: 1rem;
 }
 
 .linkedin {
-  height: 2rem;
-  width: 2rem;
+  height: 3rem;
+  width: 3rem;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.github {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.twitter {
+  height: 3rem;
+  width: 3rem;
   margin-left: 1.2rem;
   margin-bottom: 1rem;
 }
