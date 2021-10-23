@@ -6,6 +6,10 @@
   text-align: center;
 }
 
-github {
+.github {
   justify-content: center;
+}
+
+.app-link {
+  padding-left: 3rem;
 }

@@ -9,12 +9,13 @@ import codingquiz from "../../assets/project-imgs/Coding-Quiz.png";
 import weatherdashboard from "../../assets/project-imgs/Weather-Dashboard.png";
 import workday from "../../assets/project-imgs/Work-Day-Scheduler.png";
 import github from "../../assets/icons/github.svg";
+import application from "../../assets/icons/browser.png"
 
 const Work = ({ handlePageChange }) => {
   return (
     <div>
       <Row className="proj-rows">
-        <Card style={{ width: "20rem" }}>
+        <Card style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
           <Card.Img variant="top" src={tattoo} />
           <Card.Body>
             <Card.Title className="proj-title">Tattoo Shop</Card.Title>
@@ -28,10 +29,17 @@ const Work = ({ handlePageChange }) => {
             >
               <img className="github" src={github} alt="Github" />
             </a>
+            <a
+              href="https://chasenicks.github.io/tattoo_shop/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="app-link" src={application} alt="Github" />
+            </a>
           </Card.Body>
         </Card>
 
-        <Card style={{ width: "20rem" }}>
+        <Card style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
           <Card.Img variant="top" src={cryptowatch} />
           <Card.Body>
             <Card.Title className="proj-title">Crypto Watch</Card.Title>
@@ -45,9 +53,16 @@ const Work = ({ handlePageChange }) => {
             >
               <img className="github" src={github} alt="Github" />
             </a>
+            <a
+              href="https://copernichris.github.io/CryptoWatch/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="app-link" src={application} alt="Github" />
+            </a>
           </Card.Body>
         </Card>
-        <Card style={{ width: "20rem" }}>
+        <Card style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
           <Card.Img variant="top" src={password} />
           <Card.Body>
             <Card.Title className="proj-title">Password Generator</Card.Title>
@@ -60,9 +75,16 @@ const Work = ({ handlePageChange }) => {
             >
               <img className="github" src={github} alt="Github" />
             </a>
+            <a
+              href="https://ilelandhayes.github.io/Password-Generator/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="app-link" src={application} alt="Github" />
+            </a>
           </Card.Body>
         </Card>
-        <Card style={{ width: "20rem" }}>
+        <Card style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
           <Card.Img variant="top" src={codingquiz} />
           <Card.Body>
             <Card.Title className="proj-title">Javascript Quiz</Card.Title>
@@ -74,9 +96,16 @@ const Work = ({ handlePageChange }) => {
             >
               <img className="github" src={github} alt="Github" />
             </a>
+            <a
+              href="https://ilelandhayes.github.io/Javascript-Quiz/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="app-link" src={application} alt="Github" />
+            </a>
           </Card.Body>
         </Card>
-        <Card style={{ width: "20rem" }}>
+        <Card style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
           <Card.Img variant="top" src={weatherdashboard} />
           <Card.Body>
             <Card.Title className="proj-title">Weather Dashboard</Card.Title>
@@ -89,9 +118,16 @@ const Work = ({ handlePageChange }) => {
             >
               <img className="github" src={github} alt="Github" />
             </a>
+            <a
+              href="https://ilelandhayes.github.io/Weather-Dashboard/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="app-link" src={application} alt="Github" />
+            </a>
           </Card.Body>
         </Card>
-        <Card style={{ width: "20rem" }}>
+        <Card style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
           <Card.Img variant="top" src={workday} />
           <Card.Body>
             <Card.Title className="proj-title">Work Day Schedular</Card.Title>
@@ -103,6 +139,13 @@ const Work = ({ handlePageChange }) => {
               rel="noreferrer"
             >
               <img className="github" src={github} alt="Github" />
+            </a>
+            <a
+              href="https://ilelandhayes.github.io/Daily-Planner/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="app-link" src={application} alt="Github" />
             </a>
           </Card.Body>
         </Card>
