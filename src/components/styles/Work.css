@@ -1,0 +1,11 @@
+.proj-rows {
+  justify-content: space-between !important;
+}
+
+.proj-title {
+  text-align: center;
+}
+
+github {
+  justify-content: center;
+}

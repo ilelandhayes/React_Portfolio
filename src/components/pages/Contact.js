@@ -52,7 +52,6 @@ const Contact = ({ handlePageChange }) => {
               </Form.Group>
               <div className="d-grid">
                 <button
-                  id="button-teal"
                   className="btn btn-lg inputGroup mt-2 contact-button"
                   type="submit"
                   name="action"
