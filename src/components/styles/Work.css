@@ -1,5 +1,9 @@
 .proj-rows {
-  justify-content: space-between !important;
+  justify-content: space-evenly !important;
+}
+
+.cards {
+  margin-bottom: 2rem !important;
 }
 
 .proj-title {

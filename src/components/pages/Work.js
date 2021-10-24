@@ -13,9 +13,9 @@ import application from "../../assets/icons/browser.png"
 
 const Work = ({ handlePageChange }) => {
   return (
-    <div>
+    <div className="container row justify-content-md-center">
       <Row className="proj-rows">
-        <Card style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
+        <Card className="cards" style={{ width: "20rem" }}>
           <Card.Img variant="top" src={tattoo} />
           <Card.Body>
             <Card.Title className="proj-title">Tattoo Shop</Card.Title>
@@ -39,7 +39,7 @@ const Work = ({ handlePageChange }) => {
           </Card.Body>
         </Card>
 
-        <Card style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
+        <Card className="cards" style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
           <Card.Img variant="top" src={cryptowatch} />
           <Card.Body>
             <Card.Title className="proj-title">Crypto Watch</Card.Title>
@@ -62,7 +62,7 @@ const Work = ({ handlePageChange }) => {
             </a>
           </Card.Body>
         </Card>
-        <Card style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
+        <Card className="cards" style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
           <Card.Img variant="top" src={password} />
           <Card.Body>
             <Card.Title className="proj-title">Password Generator</Card.Title>
@@ -84,7 +84,7 @@ const Work = ({ handlePageChange }) => {
             </a>
           </Card.Body>
         </Card>
-        <Card style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
+        <Card className="cards" style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
           <Card.Img variant="top" src={codingquiz} />
           <Card.Body>
             <Card.Title className="proj-title">Javascript Quiz</Card.Title>
@@ -105,7 +105,7 @@ const Work = ({ handlePageChange }) => {
             </a>
           </Card.Body>
         </Card>
-        <Card style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
+        <Card className="cards" style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
           <Card.Img variant="top" src={weatherdashboard} />
           <Card.Body>
             <Card.Title className="proj-title">Weather Dashboard</Card.Title>
@@ -127,7 +127,7 @@ const Work = ({ handlePageChange }) => {
             </a>
           </Card.Body>
         </Card>
-        <Card style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
+        <Card className="cards" style={{ width: "20rem", bg: "rgb(245, 229, 229)" }}>
           <Card.Img variant="top" src={workday} />
           <Card.Body>
             <Card.Title className="proj-title">Work Day Schedular</Card.Title>
