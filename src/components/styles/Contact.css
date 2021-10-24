@@ -6,6 +6,11 @@
   color: rgb(245, 229, 229) !important;
 }
 
+.d-grid {
+  border-bottom: rgb(69, 66, 66) solid 3px !important;
+  padding-bottom: 2.5rem;
+}
+
 .contact-button {
   background-color: rgb(245, 229, 229) !important;
 }
