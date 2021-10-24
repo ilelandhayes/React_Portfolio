@@ -17,11 +17,11 @@ const NavBar = ({ currentPage, handlePageChange }) => {
             >
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse
-              // id="basic-navbar-nav"
-              // // className="float-to-right"
-              ></Navbar.Collapse>
+              id="basic-navbar-nav"
+              className="justify-content-center"
+              >
               <Nav className="justify-content-center" activeKey="/home">
-                <Nav.Item className="justify-content-center">
+                
                   <Nav.Link
                     className={
                       currentPage === "Home" ? "nav-link active" : "nav-link"
@@ -29,8 +29,7 @@ const NavBar = ({ currentPage, handlePageChange }) => {
                     onClick={() => handlePageChange("Home")}
                   >
                     Home
-                  </Nav.Link>
-                </Nav.Item>
+                  </Nav.Link>              
                 <Nav.Item>
                   <Nav.Link
                     className={
@@ -77,6 +76,7 @@ const NavBar = ({ currentPage, handlePageChange }) => {
                   </Nav.Link>
                 </Nav.Item>
               </Nav>
+              </Navbar.Collapse>
             </Navbar>
           </Container>
         </Router>
